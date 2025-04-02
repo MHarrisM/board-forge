@@ -24,13 +24,16 @@
   background-color: rgba(0, 0, 0, 1); /* Semi-transparent dark */
   border-radius: 5px; /* Optional: rounded corners */
 }
-.display-4{
+#project-title {
     background: linear-gradient(to right,#000000 0%,#b12900 35%, #ff7809 100% );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+#feature-tech {
+    color: #813b02;
+}
 
-p, h1 {
+p {
     color: #813b02;
 }
 body {
