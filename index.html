@@ -1,2 +1,94 @@
-<h1>Board Forge!</h1>
-<p> test</p>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Board Forge</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="scss/_variables.scss">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div >
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="https://mharrism.github.io/">My Project</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+      
+    </div> 
+    <!-- navbar end -->
+    <div class="grid-container">
+        <div style="grid-column: 1/3; display: flex; justify-content: center;align-items: center;">
+            <img style="justify-self: center; " src="assets/FlushLogo.png">
+            <h1 style="margin: 0px 50px;" class=" display-4" >Board Forge</h1>
+        </div>
+        <div class="grid-item" style="grid-row: 2/4; ">
+          <div>
+            <p >
+                A Unity AR project created with the Hololens. This app is a sandbox TTRPG allowing you create
+                scenes with model assets and use them as maps/board layouts for games like Dungeons and Dragons.
+            </p>
+
+          </div>
+        </div>
+
+        <div id="carouselIndicators" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+             
+              
+              
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/BoardForge2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/BoardForge1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/BoardForge4.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/BoardForge5.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/BoardForge6.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/BoardForge7.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <h1 class="grid-item">Other</h1>
+        
+
+    </div>
+    <!-- Project template end -->
+  </body>
+</html>
