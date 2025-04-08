@@ -17,6 +17,7 @@
 .carousel{
     margin-right: 12px;
     margin-top: 10px;
+    align-content: center;
 }
 
 .carousel-control-prev-icon, 
